@@ -1,13 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace PRY_GESTION_DE_COBRO_ESTACIONAMIENTO
+namespace Estacionamiento
 {
-    internal class Vehiculo
+    public abstract class Vehiculo
     {
+        public int HorasEstancia { get; set; }
 
+        public Vehiculo(int horas)
+        {
+            HorasEstancia = horas;
+        }
+
+        public abstract double CalcularTarifa();
     }
 }
