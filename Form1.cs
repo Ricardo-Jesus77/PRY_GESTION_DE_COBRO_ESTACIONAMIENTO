@@ -16,5 +16,15 @@ namespace PRY_GESTION_DE_COBRO_ESTACIONAMIENTO
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }
